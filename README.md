@@ -22,36 +22,6 @@ A player can choose between two symbols with his opponent, usual game uses “X�
 a.	One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.<br/>
 b.	If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a  draw/tie.
 
-### IMPLEMENTATION PLAN:
-The implementation workflow for this project is as follows:
-
-<p align="center"><img src="Images/cpp_flowchart.png" width="430" height="400" /></p>
-
-In order to visualize the defined game rules and description, the game is shown in Figures below.
-
-First the game will start with empty board.<br/>
-
-<p align="center"><img src="Images/Empty_Board.png" width="280" height="280" /></p>
-
-Then Player 1 will make his/her move by playing mark “X” on this board. Then Player 2 will make his/her move by playing mark “O” on this board. This will keep on continuing until the board is full of marks.
-
-Then the program will check if Player 1 with “X” wins or Player 2 with “O” wins and that scenario will be follows: (could be vertically, horizontally or diagonally).  
-
-<p align="center"><img src="Images/X_wins_&_O_wins.png" width="400" height="200" /></p>
-
-If none of the players win, the program will check for draw.
-
-<p align="center"><img src="Images/Draw_Game.png" width="280" height="280" /></p>
-
-All this decision making is done by using Minimax algorithm.
-
-### Minimax Algorithm
-
-Minimax is a artificial intelligence algorithm applied to a two player Tic Tac Toe game. This games are known as zero-sum games, because in a mathematical representation: one player wins (+1) and other player loses (-1) or both of anyone not to win (0).
-
-Minimax is a recursive algorithm which is used to choose the best move that leads the Max player to win or not lose (draw). It consider the current state of the game and the available moves at that state, then for each valid move it plays (alternating min and max) until it finds a terminal state - win, draw or lose.
-
-Its goal is to minimize the maximum loss i.e. minimize the worst case scenario.
 
 #### Explanation with Example
 
