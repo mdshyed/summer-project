@@ -82,7 +82,7 @@ Since this is a very complex algorithm, we have a computer to execute this algor
 
 ### CODE IMPLEMENTATION
 
-* In order to run this code, pygame library needs to be installed. To install this, open command prompt and type "pip install pygame".
+* In order to run this code, cpp library needs to be installed. To install this, open command prompt and type "pip install cpp".
 
 * Run the complete code TicTacToeGame.ipynb.
 
